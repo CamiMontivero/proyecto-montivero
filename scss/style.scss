@@ -1,19 +1,10 @@
 /*estilos de barra de navegación en todos los htmls*/
 
-.n-menu {
-    background-color: #eea63bb9;
-    
-    }
-    
-.img-menu {
-    border: #ffffff;
-}
+@import "variables";
+@import "views";
 
-/* Estilo en todos los html*/
 
-body {
-    background-color: #ffffff;
-}
+   
 
 
 /*estilo de h2 en todos los html*/
@@ -64,10 +55,12 @@ h2 {
     max-height: 10%;
 }
 
+
 .mapa {
+    justify-content: center;
     padding-top: 20px;
     padding-left: 35%;
-}
+} 
 
 /*estilo para clase parrafo-1 en todos los html*/
 
@@ -127,22 +120,6 @@ h2 {
     border-image: fill;
 }
 
-/*estilos de formularios*/
-
-form {
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
-}
-
-/* estilos seguimiento*/
-
-.btn-seguir {
-    background-color: #eea63bb9;
-}
-
-.btn-seguir:hover{
-background-color: peru;
-}
 
 
 

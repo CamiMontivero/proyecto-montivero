@@ -1,16 +1,29 @@
 @charset "UTF-8";
 /*estilos de barra de navegación en todos los htmls*/
+/*variables*/
+/*en todo html*/
 .n-menu {
   background-color: rgba(238, 166, 59, 0.7254901961);
 }
 
-.img-menu {
-  border: #ffffff;
-}
-
-/* Estilo en todos los html*/
 body {
   background-color: #ffffff;
+}
+
+.btn-seguir {
+  background-color: rgba(238, 166, 59, 0.7254901961);
+}
+
+.btn-seguir:hover {
+  background-color: peru;
+}
+
+form {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.img-menu {
+  border: #ffffff;
 }
 
 /*estilo de h2 en todos los html*/
@@ -57,6 +70,7 @@ h2 {
 }
 
 .mapa {
+  justify-content: center;
   padding-top: 20px;
   padding-left: 35%;
 }
@@ -114,20 +128,6 @@ h2 {
   max-width: 20%;
   max-height: 20%;
   border-image: fill;
-}
-
-/*estilos de formularios*/
-form {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-}
-
-/* estilos seguimiento*/
-.btn-seguir {
-  background-color: rgba(238, 166, 59, 0.7254901961);
-}
-
-.btn-seguir:hover {
-  background-color: peru;
 }
 
 /*# sourceMappingURL=style.css.map */

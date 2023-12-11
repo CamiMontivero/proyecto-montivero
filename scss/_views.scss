@@ -1,0 +1,22 @@
+/*en todo html*/
+.n-menu{
+    background-color: $fondo-menu;}
+
+body{
+    background-color: $color-fondo;
+}
+
+.btn-seguir {
+    background-color: $fondo-menu;
+}
+
+.btn-seguir:hover{
+background-color: $color-boton;
+}
+
+form {
+    font-family: $fuente-ppal;
+}
+.img-menu {
+    border: $color-fondo;
+}
